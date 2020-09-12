@@ -41,7 +41,7 @@ def createProcess(count):
 
   
 while(True):
-    stop=input('enter q to quit, c to insert Processes ')
+    stop=input('enter q to quit, c to continue ')
     if(stop!='q'):
         count=int(input('Enter the number of Processes'))
         createProcess(count)
@@ -49,11 +49,7 @@ while(True):
         exit() 
 
   
-# # Sample input
-# processList = [{"processId": 1,  "arrivalTime": 0, "BurstTime": 2},
-#                 {"processId": 2,  "arrivalTime": 1, "BurstTime": 2},
-#                 {"processId": 3,  "arrivalTime": 5, "BurstTime": 3},
-#                 {"processId": 4,  "arrivalTime": 6, "BurstTime": 4},
-#                 ]
+    
+    
 
-
+    
